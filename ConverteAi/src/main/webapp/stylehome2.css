@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Apotek Bold', monospace;
+    font-weight: 600;
+    font-size: 16px;
+    outline: none;
+	color: white;
+}
+
+body{
+	background-color:  ghostwhite
+}
+
+li{
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+header{
+	background-color: hsl(183, 100%, 15%);
+	color: white;
+	height: 5vh;
+    color: inherit;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contatos{
+	display: flex;
+	list-style: none;
+}
+
+.proposito{
+	color: rgb(0, 0, 0);
+	width: 55ch;
+	margin: 20px auto;
+}
+
+
+.logo{
+	color: white;
+}
+.menu{
+	color: white;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 50px;
+	list-style: none;
+	
+}
+
+.conta{
+	color: white;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 50px;
+	list-style: none;
+}
+
+.menu a {
+	color: white;
+	font-size: 16px;
+
+}
+
+
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+main{
+	height: 90vh;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.updates{
+	margin: 20px auto;
+	list-style: none;
+}
+
+.img{
+	width: 114px;
+}
+
+footer{
+	background-color: hsl(183, 100%, 15%);
+	color: white;
+	height: 5vh;
+    padding-top: 18px;	
+}
+
+.gif{
+	background-color: hsl(183, 100%, 15%);
+	width: 1020px;
+	margin: auto;
+	border-radius: 40px;
+}
+
+h2{
+	padding-top: 20px;
+	margin-left: 25px;
+	color: black;
+}
+

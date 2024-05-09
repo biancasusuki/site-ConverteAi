@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>Decimal Para Binario</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="conversorstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icone-removebg-preview.png">
+</head>
+<body>
+		<header>
+			<a href="home.html"><img class="img" src="logo.png"></a>
+			<nav>
+			<ul class="menu">
+				<li><a href="home.html">Home</a></li>
+				<li>  |  </li>
+				<li><a href="decimalParaBinario.html">Decimal → Binario, Hexadecimal e Octa</a></li>
+				<li>  |  </li> 
+				<li><a href="conversordemoeda.html">Conversor de Moeda</a></li>
+				<li>  |  </li>
+				<li><a href="imc.html">IMC</a></li>
+				<li>  |  </li>
+				<li><a href="calculadora.html">Calculadora</a></li>
+			</ul>
+		</nav>
+			<ul class="conta">
+				<li><a href="login.html" style="color: white;">Login</a></li>
+				<li><a href="cadastro.html">Criar Conta</a></li>
+		</ul>
+	</header>
+	<main class="conversorBase">
+		<div class="caixa">
+	    <ul class="ulconversor">
+        <li class="inputs">
+            <p class="infoInput">Informe um número em base decimal</p><br>
+            <input type="text" class="entrada" onkeypress="return event.charCode >= 48 && event.charCode <= 57"><br><br>
+			<button class="enviar" type="button"class="converter" id="converter">CONVERTER</button><br><br>
+        </li>
+        <li class="outputs">
+            <p class="infoHexa">HEXADECIMAL: </p>
+            <p class="resultadoHexa" id="resultadoHexa"></p>
+            <p class="infoBinario">BINÁRIO: </p>
+            <p class="resultadoBinario" id="resultadoBinario"></p>
+            <p class="infoOctal">OCTAL: </p>
+            <p class="resultadoOctal" id="resultado"></p>
+            </ul>
+        </li>
+        </div>
+	</main>
+	
+	
+	<footer>
+		<ul class="contatos">
+			<li>Email</li>
+			<li>Telefone</li>
+			<li>Instagram</li>
+			<li>Twitter</li>
+		</ul>
+		
+	</footer>
+	 <script src="conversorlogica.js"></script>
+</body>
+
+</html>
